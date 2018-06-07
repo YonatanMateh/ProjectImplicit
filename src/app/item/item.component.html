@@ -1,0 +1,9 @@
+<div class="item">
+  <a href={{user.htmlUrl}} target="_blank">
+    <img src={{user.avatarUrl}} class="user-img" alt="user image">
+    <p class="name">Name: {{user.name}}</p>
+  </a>
+  <p class="company" *ngIf="user.company">Company: {{user.company}}</p>
+  <p class="location" *ngIf="user.location">{{user.location}}</p>
+  <button class="btn btn-secondary" (click)="removeUser()">Remove user</button>
+</div>

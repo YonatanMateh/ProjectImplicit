@@ -1,0 +1,22 @@
+.item {
+  text-align: center;
+  color: black;
+  margin: 0 10px 45px 10px;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+}
+
+.item p {
+  margin-bottom: 5px;
+}
+.name {
+  font-weight: bold;
+}
+
+.user-img {
+  width: 100%;
+}
+
