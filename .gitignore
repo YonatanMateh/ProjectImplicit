@@ -10,7 +10,7 @@
 
 # dependencies
 /node_modules
-/Keys
+/src/app/models/Keys.ts
 
 # IDEs and editors
 /.idea
