@@ -6,8 +6,10 @@
 /tmp
 /out-tsc
 
+
 # dependencies
 /node_modules
+/src/app/models/Keys
 
 # IDEs and editors
 /.idea
